@@ -1,10 +1,10 @@
-# Script | Ubuntu | .NET Core
+# Script | Ubuntu | .NET Core SDK
 
 [![License](https://img.shields.io/github/license/odaceo/script-ubuntu-dotnet.svg)](LICENSE)
 
 ## Description
 
-Bash script for installing [.NET Core](https://www.microsoft.com/net/core) on Ubuntu.
+Bash script for installing [.NET Core SDK](https://www.microsoft.com/net/core) on Ubuntu.
 
 ## Provisioning Vagrant machine
 
