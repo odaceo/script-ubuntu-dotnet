@@ -31,7 +31,7 @@ Vagrant.configure(2) do |config|
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", privileged: false, 
-    path: "https://github.com/odaceo/script-ubuntu-dotnet/raw/master/install.sh"
+    path: "https://github.com/odaceo/script-ubuntu-dotnet/raw/support/trusty64/install.sh"
 end
 ```
 
