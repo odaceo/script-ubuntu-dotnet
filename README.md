@@ -1,4 +1,4 @@
-# Script | Ubuntu | .NET Core SDK
+# Script :: Ubuntu :: .NET Core SDK
 
 [![License](https://img.shields.io/github/license/odaceo/script-ubuntu-dotnet.svg)](LICENSE)
 
