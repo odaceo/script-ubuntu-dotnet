@@ -14,6 +14,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+DOTNET_VERSION=${1:-'1.0.0-preview2.1-003177'}
+
 # Add the .NET Core repository details
 sudo sh -c 'echo "deb [arch=amd64] https://apt-mo.trafficmanager.net/repos/dotnet-release/ xenial main" > /etc/apt/sources.list.d/dotnetdev.list'
 
@@ -24,4 +26,4 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 417A0893
 sudo apt-get update
     
 # Install .NET Core SDK
-sudo apt-get install -y dotnet-dev-1.0.0-preview2.1-003177
+sudo apt-get install -y dotnet-dev-${DOTNET_VERSION}
